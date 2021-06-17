@@ -1,23 +1,24 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import { Link } from 'react-router-dom'
 
 
 const Randombeer = () => {
-  const [beers, setBeers] = useState([])
+  const [randomBeer, setRandomBeer] = useState([])
 
   useEffect(() => {
     const getData = async () => {
       try {
         const { data } = await axios.get('https://api.punkapi.com/v2/beers/random')
         // console.log('response', response.data)
-        setBeers(data)
+        setRandomBeer(data)
       } catch (error) {
         console.log(error)
       }
     }
     getData()
   }, [])
-  console.log(beers)
+  console.log(randomBeer)
 
 
 
@@ -26,8 +27,9 @@ const Randombeer = () => {
     <>
       <section className="section">
         <div className="container">
+          
           <div className="columns is-multiline">
-            {beers.map(item => {
+            {randomBeer.map(item => {
               return (
                 <>
                   <div className="container_beer">
@@ -41,7 +43,12 @@ const Randombeer = () => {
             })}
           </div>
         </div>
+        <hr/>
+        <div className="field">
+        <Link to = '/beers'><button type="submit" className="button is-fullwidth is-warning">Back</button></Link>
+      </div>
       </section>
+      
     </>
   )
 }

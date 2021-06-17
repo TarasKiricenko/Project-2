@@ -24,7 +24,7 @@
       transform: scale(1.05);
       box-shadow: 25px rgb(255, 0, 0, 1);
       }
-      img {
+      img, .each-image {
         max-height: 300px;
         max-width: 100px;
       }
@@ -62,4 +62,5 @@
     color: darken($color: white, $amount: 20);
   }
 }
+
 

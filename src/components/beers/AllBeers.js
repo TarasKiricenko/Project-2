@@ -1,9 +1,11 @@
 import axios from 'axios'
 import React, { useEffect, useState } from 'react'
+import BeerCard from './BeerCard'
 
 
 const AllBeers = () => {
   const [beers, setBeers] = useState([])
+  const [updatedBeers, setUpdatedBeers] = useState([])
 
   useEffect(() => {
     const getData = async () => {
@@ -19,23 +21,51 @@ const AllBeers = () => {
   }, [])
   console.log(beers)
 
-
+  const handleChange = (event) => {
+    console.log(beers)
+    const filteredBeers = beers
+    filteredBeers.filter(item => {
+      if (item.abv >= parseFloat(event.target.value)) {
+        filteredBeers.push(item)
+        console.log(item.abv)
+        console.log(filteredBeers)
+    }
+    setBeers(filteredBeers)
+    console.log(beers)
+  })
+}
 
 
   return (
     <>
       <section className="section">
         <div className="container">
+          <div className="navbar-end is-white">
+            <div className="navbar-item is-white">
+              
+              <form onChange={handleChange}> 
+                <label>Browse by alcohol volume </label>
+                {/* <select value = {beers.abv} name ="abv" id="abv" > */}
+                <select>
+                  <option value="" disabled defaultValue>Make a choice</option>
+                  <option value="4">Stronger than 4 ABV</option>
+                  <option value="5">Stronger than 5 ABV</option>
+                  <option value="6">Stronger than 6 ABV</option>
+                  <option value="7">Stronger than 7 ABV</option>
+                  <option value="8">Stronger than 8 ABV</option>
+                  <option value="9">Stronger than 9 ABV</option>
+                  <option value="10">Stronger than 10 ABV</option>
+                </select>
+              </form>
+            </div>
+                
+          </div>
+          
           <div className="columns is-multiline">
             {beers.map(item => {
               return (
                 <>
-                  <div className="container_beer">
-                    <div className="beerdiv">
-                      <img key={item.ibu} src={item.image_url} alt={item.name}></img>
-                      <p key={item.id}>{item.name}</p>
-                    </div>
-                  </div>
+                  <BeerCard key={item.id} {...item} />
                 </>
               )
             })}

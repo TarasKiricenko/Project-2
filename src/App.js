@@ -4,6 +4,8 @@ import { BrowserRouter, Switch, Route } from 'react-router-dom'
 import AllBeers from './components/beers/AllBeers'
 import Home from './components/Home'
 import Randombeer from './components/Randombeer'
+import Beershow from './components/beers/Beershow'
+import BeerCard from './components/beers/BeerCard'
 
 
 function App() {
@@ -13,6 +15,12 @@ function App() {
       <BrowserRouter>
         <NavBar />
         <Switch>
+          {/* <Route path ='/beers/:id'>
+            <Randombeer />
+          </Route> */}
+          <Route path ='/beers/:id'>
+            <Beershow />
+          </Route>
           <Route path ='/beers'>
             <AllBeers />
           </Route>

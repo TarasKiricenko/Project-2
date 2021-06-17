@@ -1,11 +1,29 @@
+// import React, { useEffect, useState } from 'react'
 import React from 'react'
 import 'bulma/css/bulma.css'
 import { Link } from 'react-router-dom'
+// import axios from 'react'
 
 
 const NavBar = () => {
+  //   const [beerUnit, setBeerUnit] = useState([])
 
 
+  //   useEffect(() => {
+  //     const getData = async () => {
+  //       try {
+  //         const { data } = await axios.get('https://api.punkapi.com/v2/beers')
+  //         console.log(data)
+  //         setBeerUnit(data)
+  //       } catch (err) {
+  //         console.log(err)
+
+  //       }
+
+  //     }
+  //     getData()
+  //   })
+  //   console.log('beerUnit', beerUnit)
 
 
 
@@ -29,17 +47,6 @@ const NavBar = () => {
             <Link to="/random">Random Beer</Link>
           </div>
         </div>
-        <div className="navbar-end is-white">
-          <div className="navbar-item is-white">
-            <select>
-              <option>Choose alcohol amount</option>
-              <option>1</option>
-              <option>2</option>
-              <option>3</option>
-            </select>
-          </div>
-        </div>
-        
       </div>
     </nav>
   )
