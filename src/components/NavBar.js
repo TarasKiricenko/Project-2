@@ -30,25 +30,25 @@ const NavBar = () => {
   //navbar with home ,  beers with link to all beer ),drop down by percentage,  random beer ( https://api.punkapi.com/v2/beers/random)
 
   return (
-    <nav className="navbar is-dark">
+    <nav className="navbar is-danger is-medium">
       <div className="container">
         <div className="navbar-start">
-          <div className="navbar-item">
-            <Link to="/">Home</Link>
+          <div className="navbar-item is-white">
+            <Link  className = "navlink"to="/">Home</Link>
           </div>
         </div>
         <div className="navbar-start">
           <div className="navbar-item is-white">
-            <Link to="/beers">See all Beers</Link>
+            <Link className ="navlink"to="/beers">See all Beers</Link>
           </div>
         </div>
         <div className="navbar-end">
           <div className="navbar-item is-white">
-            <Link to="/random">Random Beer</Link>
+            <Link className = "navlink" to="/random">Random Beer</Link>
           </div>
         </div>
-      </div>
-    </nav>
+      </div >
+    </nav >
   )
 }
 

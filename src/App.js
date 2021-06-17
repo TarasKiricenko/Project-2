@@ -5,7 +5,7 @@ import AllBeers from './components/beers/AllBeers'
 import Home from './components/Home'
 import Randombeer from './components/Randombeer'
 import Beershow from './components/beers/Beershow'
-import BeerCard from './components/beers/BeerCard'
+
 
 
 function App() {

@@ -19,22 +19,57 @@ const AllBeers = () => {
     }
     getData()
   }, [])
-  console.log(beers)
+  // console.log(beers)
 
+  // const handleChange = (event) => {
+  //   console.log(beers)
+  //   const filteredBeers = []
+  //   const newFilterBeers = beers
+  //   newFilterBeers.filter(item => {
+  //     if (item.abv >= parseFloat(event.target.value)) {
+  //       filteredBeers.push(item)
+  //       // setUpdatedBeers(filteredBeers)
+  //     }
+  //   })
+  //   setUpdatedBeers(filteredBeers)
+  //   console.log('FilterBeers', filteredBeers)
+  //   console.log('beers before', beers)
+  // }
+  // }
+  console.log(updatedBeers)
   const handleChange = (event) => {
     console.log(beers)
-    const filteredBeers = beers
-    filteredBeers.filter(item => {
-      if (item.abv >= parseFloat(event.target.value)) {
-        filteredBeers.push(item)
-        console.log(item.abv)
-        console.log(filteredBeers)
-    }
-    setBeers(filteredBeers)
-    console.log(beers)
-  })
-}
+    console.log(event.target.value)
+    // <<< so i set state to a new variable, and thne that filters on the item.abv levels
+    const newArray = beers.filter((item) => {
+      return item.abv >= parseFloat(event.target.value)
+    })
+    setUpdatedBeers(newArray)
+  }
+  // console.log('update', updatedBeers)
+  // const filteredBeers = beers
+  // filteredBeers.filter(item => {
+  //   if (item.abv >= parseFloat(event.target.value)) {
+  //     filteredBeers.push(item)
+  //     console.log(item.abv)
+  //     console.log(filteredBeers)
+  //   }
+  //   setBeers(filteredBeers)
+  //   console.log(beers)
+  // })
 
+  // console.log(filteredBeers)
+  // console.log(beers)
+  // const filteredBeers = beers
+  // filteredBeers.filter(item => {
+  //   if (item.abv >= parseFloat(event.target.value)) {
+  //     filteredBeers.push(item)
+  //     console.log(item.abv)
+  //     console.log(filteredBeers)
+  //   }
+  //   setBeers(filteredBeers)
+  //   console.log(beers)
+  // })
 
   return (
     <>
@@ -42,8 +77,7 @@ const AllBeers = () => {
         <div className="container">
           <div className="navbar-end is-white">
             <div className="navbar-item is-white">
-              
-              <form onChange={handleChange}> 
+              <form onChange={handleChange}>
                 <label>Browse by alcohol volume </label>
                 {/* <select value = {beers.abv} name ="abv" id="abv" > */}
                 <select>
@@ -58,18 +92,24 @@ const AllBeers = () => {
                 </select>
               </form>
             </div>
-                
           </div>
-          
-          <div className="columns is-multiline">
-            {beers.map(item => {
-              return (
-                <>
+          {updatedBeers.length > 0 ?
+            <div className="columns is-multiline">
+              {updatedBeers.map(item => {
+                return (
                   <BeerCard key={item.id} {...item} />
-                </>
-              )
-            })}
-          </div>
+                )
+              })}
+            </div>
+            :
+            < div className="columns is-multiline">
+              {beers.map(item => {
+                return (
+                  <BeerCard key={item.id} {...item} />
+                )
+              })}
+            </div>
+          }
         </div>
       </section>
     </>
