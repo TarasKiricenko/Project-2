@@ -45,7 +45,7 @@ const Randombeer = () => {
         </div>
         <hr/>
         <div className="field">
-        <Link to = '/beers'><button type="submit" className="button is-fullwidth is-warning">Back</button></Link>
+        <Link to = '/beers'><button type="submit" className="button is-fullwidth is-warning">Back to all beers</button></Link>
       </div>
       </section>
       
