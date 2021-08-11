@@ -17,7 +17,7 @@ Browse through selection of beer, sort them, choose a random one.
 
 <h2>Sample screenshots:</h2>
 <h5>Browse view with search dropdown bar</h5>
-<img width="496" alt="Screenshot 2021-08-11 at 16 59 01" src="https://user-images.githubusercontent.com/81250034/129042533-bf66286b-ae9c-4d60-b4bc-e879fc1b97ec.png">
+![image](https://user-images.githubusercontent.com/81250034/129042971-3d7eb973-5b53-44e0-9379-17e3a86ad884.png)
 <h5>Single product view</h5>
 <img width="1379" alt="Screenshot 2021-08-11 at 16 10 29" src="https://user-images.githubusercontent.com/81250034/129034579-2a10e567-eeba-4285-95b9-d6a255a9acd3.png">
 
