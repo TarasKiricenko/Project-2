@@ -73,52 +73,16 @@ https://user-images.githubusercontent.com/81250034/129051112-f5219798-899c-46ba-
 
 <h2>Wins and challenges:</h2>
 <h4>Wins</h4>
-<li>It was great practice on array methods and interval management, as well as using "for loop" and getElement functions. Perfect kind of project for beginners to solidify their knowledge of JavaScript</li>
-<li>I designed this game myself, so the sounds I was using had to be "cut" to particualr pieces, as they had to fit sertain timeframes in my interval-paced game. Good fun and valuable experience.</li>
+<li>This project was a great practice using external API, using insomnia and accessing certain data from it and also learning how to use asynchronous functions.</li>
+<li>Taking care of the biggest part of design, I did learned SASS deeper. Great experience mixing styling framework with custom CSS also.</li>
+<li>As this was a pair programming project, it was sensational opportunity to be coding in a team, sometimes on one screen, oftenly keeping an eye on a partners code. Wonderful experience!</li>
 
 <h4>Challenges</h4>
-<li>The most challenging part was defining a collision between alien bullet and player, as it is a multi-conditional function, that not only checks, if player was hit, but defines the movement of alien projectile.</li>
-<li>Another very imlortant part, that was hard enough - styling. I wanted to create perfectly playable game, so I spend quite some time looking for right resources and making them look like a solid product.</li>
+<li>The most challenging part was applying certain ternary statements. Syntax error were the milestone. Multiconditional approach was quite complicated feature to implement, but at the end of the project it was done like expected to be.</li>
+<li>Because of limited time, we had to restrain our MVP to a very few features delivered. Time management - important challenge for this project, I believe, mangaged well.</li>
 
 <h2>Potential improvements:</h2>
 <li>Pause game functionality.</li>
 <li>Mute functionality.</li>
 <li>2 players functionality - 2 simultaneously and/or turn taking.</li>
 <li>Difficulty levels, increasing speed of movement of aliens etc.</li>
-  
-  We have used a BrewDog API for this project, see link below:
-  https://api.punkapi.com/v2/beers/
-  
-
-  Technologies:
-  _________________________________________________________________________________________________________________
-
-  Insonmia was used to access the API structure.
-  VSCode was use to compile the code for this project.
-  React 17.0.2 library was used to develop the application.
-
-  Setup:
-  _________________________________________________________________________________________________________________
-
-  To run this project, install it locally using yarn:
-  VSCode-terminal: yarn && yarn start.
-  Bulma and SASS were used for styling.
-
-  Description:
-  _________________________________________________________________________________________________________________
-
-  Started with search for API's that were suitable for the project.
-  We then used insomnmia to access the API structure and determine whether it was useable.
-  After getting the right API for the the project, we started off by create a wireframe mapping out the project.
-  Please refer to our major views and interfaces in Image folder.
-   
-  Issues:
-  _________________________________________________________________________________________________________________
-
-  Major issues:
-  * when trying to create a dropdown, and use a filter function referring to it, we were originally modifying the original data array, so we had to find a way to refer to our data externally, by using useState function.
-  * error handling and using multiple ternaries inside of one component return section, quite complicated task because we were running into numerous syntax error. We had to take many steps back in order to get our logic expressed the way we want it.
-  * It is a project, that allowed me to practice requests to API, handle the response information and also render it in browser developing UI.
-  
-
-
