@@ -16,8 +16,10 @@ Browse through selection of beer, sort them, choose a random one.
 * JavsScript and React Library 17.0.2 - for rendering
 
 <h2>Sample screenshots:</h2>
-<h5>Browse view</h5>
+<h5>Browse view with search dropdown bar</h5>
 <img width="1331" alt="Screenshot 2021-08-11 at 16 08 47" src="https://user-images.githubusercontent.com/81250034/129034318-20390d6d-1e56-49b9-84d6-9b03735f4739.png">
+<h5>Single product view</h5>
+<img width="1379" alt="Screenshot 2021-08-11 at 16 10 29" src="https://user-images.githubusercontent.com/81250034/129034579-2a10e567-eeba-4285-95b9-d6a255a9acd3.png">
 
 <h2>Build:</h2>
 <li>Create a grid using "for loop" and add divs using JS through DOM.</li>
