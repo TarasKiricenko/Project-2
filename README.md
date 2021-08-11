@@ -49,6 +49,8 @@ It defines the structure of each white card used to display a beer.
 <br>
 * Renders simple structure of each card, which will be complemented by CSS.
 <br>
+* Each "card" is actually a link, which will lead you to more broad description of each beer on a separate component page.
+<br>
 <br>
 <img width="554" alt="Screenshot 2021-08-11 at 17 12 23" src="https://user-images.githubusercontent.com/81250034/129044830-361f8079-0786-46ac-8e7a-62177fc599c3.png">
 
