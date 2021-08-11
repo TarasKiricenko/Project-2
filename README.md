@@ -2,21 +2,22 @@
 It is a pair-coding hackaton-like training project. Aim of it - practice accessibility to public API, render information located there. It allows the user to access the APP and use API's information publicly. The project consist of several components and router that are used to render UI.
 
 <h2>Brief:</h2>
-This application was developed working with my classmate <a href="https://github.com/JoanKalanzi">Joan Kalanzi</a>. This project uses publicly accessible API of BrewDog Company, you can find more about it <a href="https://punkapi.com/">here</a>. It is a project, that allowed me to practice requests to API, handle the response information and also render it in browser developing UI. Using this project you can have a look at all sorts of beer produced and find out some more information about it, filter particular strength of beer of your choice and display a randomly selected one.
+This application was developed working with my classmate <a href="https://github.com/JoanKalanzi">Joan Kalanzi</a>. It is a 'hackaton"-like project, which was complete in 2 days time. This project uses publicly accessible API of BrewDog Company, you can find more about it <a href="https://punkapi.com/">here</a>. Using this project you can have a look at all sorts of beer produced and find out some more information about it, filter particular strength of beer of your choice and display a randomly selected one. 
 
-<h2>How to play:</h2>
-Copletely intuitive gameplay, using 3 keys. Follow instructions in actual game.
+<h2>Functionality:</h2>
+Browse through selection of beer, sort them, choose a random one.
 
 <h2>Deployed project:</h2>
-<a href="https://taraskiricenko.github.io/Project-1/">Space Invaders</a>
+<a href="https://joan-and-taras-beer-shop.netlify.app/beers">Space Invaders</a>
 
 <h2>Tech used:</h2>
-* JavaScript
-* HTML
-* CSS3
+* Insomnia - to access API structure
+* CSS3 and Bulma framework - for styling
+* JavsScript and React Library 17.0.2 - for rendering
 
-<h2>Sample screenshot:</h2>
-<img width="678" alt="Screenshot 2021-08-11 at 14 08 37" src="https://user-images.githubusercontent.com/81250034/129019683-2485fda7-d442-4a88-b1dc-919b2bef0872.png">
+<h2>Sample screenshots:</h2>
+<h5>Browse view</h5>
+<img width="1331" alt="Screenshot 2021-08-11 at 16 08 47" src="https://user-images.githubusercontent.com/81250034/129034318-20390d6d-1e56-49b9-84d6-9b03735f4739.png">
 
 <h2>Build:</h2>
 <li>Create a grid using "for loop" and add divs using JS through DOM.</li>
@@ -98,6 +99,7 @@ This functions defines what happens when you hit the alien:
   Major issues:
   * when trying to create a dropdown, and use a filter function referring to it, we were originally modifying the original data array, so we had to find a way to refer to our data externally, by using useState function.
   * error handling and using multiple ternaries inside of one component return section, quite complicated task because we were running into numerous syntax error. We had to take many steps back in order to get our logic expressed the way we want it.
+  * It is a project, that allowed me to practice requests to API, handle the response information and also render it in browser developing UI.
   
 
 
