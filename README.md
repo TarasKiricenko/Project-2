@@ -47,12 +47,25 @@ It defines the structure of each white card used to display a beer.
 <br>
 * It uses props passed from main core AllBeers component, without API request. 
 <br>
-* Renders simple structure of each card, which will be complemented by CSS.
+* Renders simple structure of BeerCard, which will be complemented by CSS.
 <br>
 * Each "card" is actually a link, which will lead you to more broad description of each beer on a separate component page.
 <br>
 <br>
 <img width="554" alt="Screenshot 2021-08-11 at 17 12 23" src="https://user-images.githubusercontent.com/81250034/129044830-361f8079-0786-46ac-8e7a-62177fc599c3.png">
+<li>Short overview for styling:</li>
+<br>
+Because Bulma was used, I had to override few properties in order to create a look that I prefer to that card.
+<br>
+<br>
+* It uses props passed from main core AllBeers component, without API request. 
+<br>
+* Renders simple structure of BeerCard, which will be complemented by CSS.
+<br>
+* Each "card" is actually a link, which will lead you to more broad description of each beer on a separate component page.
+<br>
+<br>
+<img width="391" alt="Screenshot 2021-08-11 at 17 22 51" src="https://user-images.githubusercontent.com/81250034/129046689-ffcec4fe-2cc9-454b-b9db-08e37e778904.png">
 
 <h2>Wins and challenges:</h2>
 <h4>Wins</h4>
