@@ -40,7 +40,7 @@ BeerCard here acts like a component here. It determines, how every single white 
 <br>
 <img width="496" alt="Screenshot 2021-08-11 at 16 59 01" src="https://user-images.githubusercontent.com/81250034/129042533-bf66286b-ae9c-4d60-b4bc-e879fc1b97ec.png">
 <br>
-<li>Here you can have a look at the another functional part:</li>
+<li>Now lets take a look at BeerCard component:</li>
 <br>
 This functions defines what happens when you hit the alien:
 <br>
@@ -54,7 +54,7 @@ This functions defines what happens when you hit the alien:
 * Takes aliens (as array) and splices that array at the index of killed alien.
 <br>
 * Finally, if that was the last alien, shows victory message.
-<img width="837" alt="Screenshot 2021-08-11 at 14 46 24" src="https://user-images.githubusercontent.com/81250034/129023587-104ed98f-9275-4f46-b0fc-597c0a68edcb.png">
+<img width="554" alt="Screenshot 2021-08-11 at 17 12 23" src="https://user-images.githubusercontent.com/81250034/129044830-361f8079-0786-46ac-8e7a-62177fc599c3.png">
 
 <h2>Wins and challenges:</h2>
 <h4>Wins</h4>
