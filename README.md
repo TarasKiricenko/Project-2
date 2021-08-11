@@ -2,7 +2,7 @@
 It is a pair-coding hackaton-like training project. Aim of it - practice accessibility to public API, render information located there. It allows the user to access the APP and use API's information publicly. The project consist of several components and router that are used to render UI.
 
 <h2>Brief:</h2>
-This application was developed working with my classmate <a href="https://github.com/JoanKalanzi">Joan Kalanzi</a>. 
+This application was developed working with my classmate <a href="https://github.com/JoanKalanzi">Joan Kalanzi</a>. This project uses publicly accessible API of Brewdog Company, you can find more about it <a href="https://punkapi.com/">here</a>.
 My personal version of Space Invaders classical 80's game. Player aiming to shoot down all aliens, moving only right or left. Aliens slowly moving descending, randomly trying to drop bombs on player. As soon as all aliens are taken downs or player loses all 3 lives - game is over. Target is to achieve maximum point, each alien taken downs brings you 10 points. You can only have one bullet on screen, before it reaches the target or leaves game field, otherwise launching second one, first one eliminates.
 
 <h2>How to play:</h2>
