@@ -22,7 +22,7 @@ Browse through selection of beer, sort them, choose a random one.
 <img width="1379" alt="Screenshot 2021-08-11 at 16 10 29" src="https://user-images.githubusercontent.com/81250034/129034579-2a10e567-eeba-4285-95b9-d6a255a9acd3.png">
 
 <h2>Build:</h2>
-<li>Create a grid using "for loop" and add divs using JS through DOM.</li>
+<li>Create a router using "Browser router", "Switch" and "Route" from "react-router-dom". Set up according paths to your switch routes, create components.</li>
 <li>Give each "cell" (essentially, div) an id for allocation purposes, applying certain css classes at particular situation to each one, creating actual gameplay.</li>
 <li>Create classes for game objects: aliens, player, bullet, explosion, collision etc.</li>
 <li>Develop functions, setting the raticular rules: collision detection, player position, bullet movement etc.</li>
