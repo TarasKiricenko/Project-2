@@ -3,7 +3,6 @@ It is a pair-coding hackaton-like training project. Aim of it - practice accessi
 
 <h2>Brief:</h2>
 This application was developed working with my classmate <a href="https://github.com/JoanKalanzi">Joan Kalanzi</a>. This project uses publicly accessible API of BrewDog Company, you can find more about it <a href="https://punkapi.com/">here</a>. It is a project, that allowed me to practice requests to API, handle the response information and also render it in browser developing UI. Using this project you can have a look at all sorts of beer produced and find out some more information about it, filter particular strength of beer of your choice and display a randomly selected one.
-My personal version of Space Invaders classical 80's game. Player aiming to shoot down all aliens, moving only right or left. Aliens slowly moving descending, randomly trying to drop bombs on player. As soon as all aliens are taken downs or player loses all 3 lives - game is over. Target is to achieve maximum point, each alien taken downs brings you 10 points. You can only have one bullet on screen, before it reaches the target or leaves game field, otherwise launching second one, first one eliminates.
 
 <h2>How to play:</h2>
 Copletely intuitive gameplay, using 3 keys. Follow instructions in actual game.
