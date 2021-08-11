@@ -17,17 +17,18 @@ Browse through selection of beer, sort them, choose a random one.
 
 <h2>Sample screenshots:</h2>
 <h5>Browse view with search dropdown bar</h5>
-<img width="1331" alt="Screenshot 2021-08-11 at 16 08 47" src="https://user-images.githubusercontent.com/81250034/129034318-20390d6d-1e56-49b9-84d6-9b03735f4739.png">
+<img width="496" alt="Screenshot 2021-08-11 at 16 59 01" src="https://user-images.githubusercontent.com/81250034/129042533-bf66286b-ae9c-4d60-b4bc-e879fc1b97ec.png">
 <h5>Single product view</h5>
 <img width="1379" alt="Screenshot 2021-08-11 at 16 10 29" src="https://user-images.githubusercontent.com/81250034/129034579-2a10e567-eeba-4285-95b9-d6a255a9acd3.png">
 
 <h2>Build:</h2>
 <li>Create a router using "Browser router", "Switch" and "Route" from "react-router-dom". Create components, set up according paths to your switch routes.</li>
-<li>Give each "cell" (essentially, div) an id for allocation purposes, applying certain css classes at particular situation to each one, creating actual gameplay.</li>
-<li>Create classes for game objects: aliens, player, bullet, explosion, collision etc.</li>
-<li>Develop functions, setting the raticular rules: collision detection, player position, bullet movement etc.</li>
+<li>Make sure, each component is imported correctly and has all desirable axios requests. Create state instances, to store particular data for rendering.</li>
+<li>Work on front end implementation, using styling frameworks or/and CSS to layout data. Develop the idea of main image, display it, whilst handling errors.</li>
+<li>Set particular ternary conditions, in order to display right information<img width="496" alt="Screenshot 2021-08-11 at 16 59 01" src="https://user-images.githubusercontent.com/81250034/129042533-bf66286b-ae9c-4d60-b4bc-e879fc1b97ec.png">
+</li>
 <br>
-(for more detailed see "sample code")
+(for more detailed examples see "sample code")
     
 <h2>Sample code:</h2>
 <li>Here you can see, how the bullet moves and what are the conditions:</li>
