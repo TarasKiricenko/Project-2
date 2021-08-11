@@ -1,3 +1,7 @@
+
+
+https://user-images.githubusercontent.com/81250034/129050442-c39838db-cac6-4ef2-bc97-2bd22770494a.mov
+
 # Beer shop
 It is a pair-coding hackaton-like training project. Aim of it - practice accessibility to public API, render information located there. It allows the user to access the APP and use API's information publicly. The project consist of several components and router that are used to render UI.
 
