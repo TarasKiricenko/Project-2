@@ -25,8 +25,7 @@ Browse through selection of beer, sort them, choose a random one.
 <li>Create a router using "Browser router", "Switch" and "Route" from "react-router-dom". Create components, set up according paths to your switch routes.</li>
 <li>Make sure, each component is imported correctly and has all desirable axios requests. Create state instances, to store particular data for rendering.</li>
 <li>Work on front end implementation, using styling frameworks or/and CSS to layout data. Develop the idea of main image, display it, whilst handling errors.</li>
-<li>Set particular ternary conditions, in order to display right information<img width="496" alt="Screenshot 2021-08-11 at 16 59 01" src="https://user-images.githubusercontent.com/81250034/129042533-bf66286b-ae9c-4d60-b4bc-e879fc1b97ec.png">
-</li>
+<li>Set particular ternary conditions, in order to display right information.</li>
 <br>
 (for more detailed examples see "sample code")
     
