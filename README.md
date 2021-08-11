@@ -42,18 +42,14 @@ BeerCard here acts like a component here. It determines, how every single white 
 <br>
 <li>Now lets take a look at BeerCard component:</li>
 <br>
-This functions defines what happens when you hit the alien:
+It defines the structure of each white card used to display a beer.
 <br>
 <br>
-* It checks, if first of all you do have 2 classes in one "cell" first
+* It uses props passed from main core AllBeers component, without API request. 
 <br>
-* Add points to your score span.
+* Renders simple structure of each card, which will be complemented by CSS.
 <br>
-* Removes both alien and bullet, and sets explosion class to that cell.
 <br>
-* Takes aliens (as array) and splices that array at the index of killed alien.
-<br>
-* Finally, if that was the last alien, shows victory message.
 <img width="554" alt="Screenshot 2021-08-11 at 17 12 23" src="https://user-images.githubusercontent.com/81250034/129044830-361f8079-0786-46ac-8e7a-62177fc599c3.png">
 
 <h2>Wins and challenges:</h2>
