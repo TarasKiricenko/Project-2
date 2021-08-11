@@ -82,7 +82,8 @@ https://user-images.githubusercontent.com/81250034/129051112-f5219798-899c-46ba-
 <li>Because of limited time, we had to restrain our MVP to a very few features delivered. Time management - important challenge for this project, I believe, mangaged well.</li>
 
 <h2>Potential improvements:</h2>
-<li>Pause game functionality.</li>
-<li>Mute functionality.</li>
-<li>2 players functionality - 2 simultaneously and/or turn taking.</li>
-<li>Difficulty levels, increasing speed of movement of aliens etc.</li>
+<li>Search by name or hops.</li>
+<li>Ability to save some favourites (potential "basket").</li>
+<li>Reogranising of code to have project rendering well on mobile devices.</li>
+<li>Fixing of bugs (when you click on random beer - it load obly once, you have to come back and do it again).</li>
+<li>Fixing of layout (when you click on one beer - page does take just as much space as needed, leaving white field at the bottom).</li>
