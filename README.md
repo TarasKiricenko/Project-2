@@ -67,6 +67,10 @@ This is my own example of SASS implementation. Completely custom CSS design, bas
 
 
 
+https://user-images.githubusercontent.com/81250034/129051112-f5219798-899c-46ba-a5ad-23a4278c5712.mov
+
+
+
 <h2>Wins and challenges:</h2>
 <h4>Wins</h4>
 <li>It was great practice on array methods and interval management, as well as using "for loop" and getElement functions. Perfect kind of project for beginners to solidify their knowledge of JavaScript</li>
