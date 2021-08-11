@@ -30,12 +30,13 @@ Browse through selection of beer, sort them, choose a random one.
 (for more detailed examples see "sample code")
     
 <h2>Sample code:</h2>
-<li>Here you can see, how the bullet moves and what are the conditions:</li>
+<li>Here we can see the structure of dropdwon menu and its impact to render:</li>
 <br>
-First function defines what to do if a "cell" contains a particular class, and if right key is pressed, adds a bullet
+Firsly, "handleChange" uses the value of form options to take original data and converts it into new array, which is then used in ternary conditions. If new array is longer than 0 (has some information), that is what we use for rendering. 
 <br>
 <br>
-Second function is running on interval, and moves the bullet up to the top of game field and removes it when bullet reaches top border.
+BeerCard here acts like a component here. It determines, how every single white beer card will look like, and what interraction can be done with it.
+<br>
 <img width="496" alt="Screenshot 2021-08-11 at 16 59 01" src="https://user-images.githubusercontent.com/81250034/129042533-bf66286b-ae9c-4d60-b4bc-e879fc1b97ec.png">
 <br>
 <li>Here you can have a look at the another functional part:</li>
