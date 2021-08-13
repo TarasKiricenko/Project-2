@@ -8,7 +8,7 @@ This application was developed working with my classmate <a href="https://github
 Browse through selection of beer, sort them, choose a random one.
 
 <h2>Deployed project:</h2>
-<a href="https://joan-and-taras-beer-shop.netlify.app/beers">Space Invaders</a>
+<a href="https://joan-and-taras-beer-shop.netlify.app/beers">Beer shop</a>
 
 <h2>Tech used:</h2>
 <li>Insomnia - to access API structure</li>
