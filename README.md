@@ -79,7 +79,7 @@ https://user-images.githubusercontent.com/81250034/129051112-f5219798-899c-46ba-
 
 <h4>Challenges</h4>
 <li>The most challenging part was applying certain ternary statements. Syntax error were the milestone. Multiconditional approach was quite complicated feature to implement, but at the end of the project it was done like expected to be.</li>
-<li>Because of limited time, we had to restrain our MVP to a very few features delivered. Time management - important challenge for this project, I believe, mangaged well.</li>
+<li>Because of limited time, we had to restrain our MVP to a very few features delivered. Time management - important challenge for this project, I believe, managed well.</li>
 
 <h2>Potential improvements:</h2>
 <li>Search by name or hops.</li>
