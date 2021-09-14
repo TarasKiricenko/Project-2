@@ -1,4 +1,6 @@
 # Beer shop
+
+<h2>Overview:</h2>
 It is a pair-coding hackaton-like training project. Aim of it - practice accessibility to public API, render information located there. It allows the user to access the APP and use API's information publicly. The project consist of several components and router that are used to render UI.
 
 <h2>Approach:</h2>
