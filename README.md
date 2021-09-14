@@ -79,11 +79,11 @@ https://user-images.githubusercontent.com/81250034/129051112-f5219798-899c-46ba-
 <h2>Wins and challenges:</h2>
 <h4>Wins</h4>
 <li>This project was a great practice using external API, using insomnia and accessing certain data from it and also learning how to use asynchronous functions.</li>
-<li>Taking care of the biggest part of design, I did learned SASS deeper. Great experience mixing styling framework with custom CSS also.</li>
-<li>As this was a pair programming project, it was sensational opportunity to be coding in a team, sometimes on one screen, oftenly keeping an eye on a partners code. Wonderful experience!</li>
+<li>Taking care of the biggest part of design, I learned SASS deeper. Great experience mixing styling framework with custom CSS also.</li>
+<li>As this was a pair programming project, it was a sensational opportunity to be coding in a team, sometimes on one screen, oftenly keeping an eye on a partners code. Wonderful experience!</li>
 
 <h4>Challenges</h4>
-<li>The most challenging part was applying certain ternary statements. Syntax error were the milestone. Multiconditional approach was quite complicated feature to implement, but at the end of the project it was done like expected to be.</li>
+<li>The most challenging part was applying certain ternary statements. Syntax error were the milestone. Multiconditional approach was a quite complicated feature to implement, but at the end of the project it was done like expected to be.</li>
 <li>Because of limited time, we had to restrain our MVP to a very few features delivered. Time management - important challenge for this project, I believe, managed well.</li>
 
 <h2>Potential improvements:</h2>
