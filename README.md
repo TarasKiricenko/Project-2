@@ -16,9 +16,9 @@ Browse through selection of beer, sort them, choose a random one.
 <a href="https://joan-and-taras-beer-shop.netlify.app/beers">Beer shop</a>
 
 <h2>Tech used:</h2>
-<li>Insomnia - to access API structure</li>
-<li>CSS3 and Bulma framework - for styling</li>
-<li>JavsScript and React Library 17.0.2 - for rendering</li>
+<li>Insomnia - to access API structure.</li>
+<li>CSS3 and Bulma framework - for styling.</li>
+<li>JavsScript and React Library 17.0.2 - for rendering.</li>
 
 <h2>Sample screenshots:</h2>
 <h5>Browse view with search dropdown bar</h5>
