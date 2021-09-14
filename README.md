@@ -1,7 +1,7 @@
 # Beer shop
 
 <h2>Overview:</h2>
-Software Engineering Immersive Course - Project-2 - Pair Coding Project - 2 days
+Software Engineering Immersive Course - Project-2 - Pair Coding Project - 2 days.
 
 <h2>Brief:</h2>
 It is a pair-coding hackaton-like training project. Aim of it - practice accessibility to public API, render information located there. It allows the user to access the APP and use API's information publicly. The project must have several components and a router that are used to render UI, according to instructions given.
