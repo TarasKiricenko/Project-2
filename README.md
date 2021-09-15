@@ -6,7 +6,7 @@ Software Engineering Immersive Course - Project-2 - Pair Coding Project - 2 days
 <h2>Brief:</h2>
 It is a pair-coding hackaton-like training project. Aim of it - practice accessibility to public API, render information located there. It allows the user to access the APP and use API's information publicly. The project must have several components and a router that are used to render UI, according to instructions given.
 
-<h2>Approach:</h2>
+<h2>Description:</h2>
 This application was developed working with my classmate <a href="https://github.com/JoanKalanzi">Joan Kalanzi</a>. It is a 'hackaton"-like project, which was complete in 2 days time. This project uses a publicly accessible API of BrewDog Company, you can find more about it <a href="https://punkapi.com/">here</a>. Using this project you can have a look at all sorts of beer produced and find out some more information about it, filter particular strength of beer of your choice and display a randomly selected one. 
 
 <h2>Functionality:</h2>
@@ -25,6 +25,8 @@ Browse through selection of beer, sort them, choose a random one.
 <img width="1330" alt="Screenshot 2021-08-11 at 17 02 24" src="https://user-images.githubusercontent.com/81250034/129043083-5bcc81e9-7af2-4454-917d-b7916be46ddc.png">
 <h5>Single product view</h5>
 <img width="1379" alt="Screenshot 2021-08-11 at 16 10 29" src="https://user-images.githubusercontent.com/81250034/129034579-2a10e567-eeba-4285-95b9-d6a255a9acd3.png">
+
+<h1>Approach:</h1>
 
 <h2>Build:</h2>
 <li>Create a router using "Browser router", "Switch" and "Route" from "react-router-dom". Create components, set up according paths to your switch routes.</li>
